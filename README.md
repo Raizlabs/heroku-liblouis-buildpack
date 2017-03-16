@@ -17,7 +17,9 @@ Create an additional directory `vendor/liblous-exec` and add a `.gitkeep` file
 
 Add a `.profile` file to your root directory with `export LD_LIBRARY_PATH=$HOME/vendor/liblouis-exec/lib` inside
 
-Commit your changes, and push these changes up to your heroku application
+Add this buildpack to your heroku application with `heroku buildpacks:add https://github.com/Raizlabs/heroku-liblouis-buildpack`
+
+Commit your changes, and push them up to your heroku application `git push heroku master`
 
 
 Usage
