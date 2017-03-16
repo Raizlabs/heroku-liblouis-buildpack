@@ -1,4 +1,4 @@
-Heroku buildpac
+Heroku buildpack
 ===================
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for makefiles.
