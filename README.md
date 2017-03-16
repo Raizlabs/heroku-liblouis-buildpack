@@ -1,7 +1,7 @@
-Heroku buildpack: C
+Heroku buildpac
 ===================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for C apps.
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for makefiles.
 It uses [Make](http://www.gnu.org/software/make/).
 This is a fork from http://github.com/heroku/heroku-buildpack-c.git and is custom configured to install LibLouis from the vendor directory on a heroku application.
 
